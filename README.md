@@ -2,7 +2,7 @@
 
 ### E: Unable to correct problems, you have held broken packages.
 
-sudo apt-get install ros-kinetic-gazebo9-ros-pkgs ros-kinetic-gazebo9-ros-control
+	sudo apt-get install ros-kinetic-gazebo9-ros-pkgs ros-kinetic-gazebo9-ros-control
 
 
 
