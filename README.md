@@ -15,6 +15,6 @@ so i had no choice but to skip the command
 
 # How to write 'README.md'
 
-[blog](https://ndb796.tistory.com/194)
+recommand website - [blog](https://ndb796.tistory.com/194)
 
 
