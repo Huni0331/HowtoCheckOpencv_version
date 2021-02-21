@@ -1,13 +1,9 @@
 # How to change 'avoidance_sitl_mavros.launch' value
-### Issue github - [blog](https://github.com/PX4/PX4-Avoidance/issues/485)
+	Issue github - [blog](https://github.com/PX4/PX4-Avoidance/issues/485)
+~/catkin_ws/src/avoidance/avoidance/launch/
+의 avoidance_sitl_mavros.launch파일 gedit -> gui -> ture
 
-### E: Unable to correct problems, you have held broken packages.
-
-	sudo apt-get install ros-kinetic-gazebo9-ros-pkgs ros-kinetic-gazebo9-ros-control
-
-this command is not working
-
-so i had no choice but to skip the command
+	
 
 
 
