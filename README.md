@@ -1,16 +1,14 @@
 # catkin_ws_ov
 ### catkin_ws_ov : how to run program
-1. only 
-	roslaunch ov_msckf ros_uzhfpv.launch
+    1. roslaunch ov_msckf ros_uzhfpv.launch
 
 ### catkin_ws_ov : error
+not yet
 
 # catkin_stereo
 ### catkin_stereo : how to run program
-1.	
-	roslaunch vins_estimator_stereo fpv.launch
-2.	
-	rosbag play ~/workspace/dataset/indoor_forward_5_snapdragon_with_gt.bag
+    1. roslaunch vins_estimator_stereo fpv.launch
+    2. rosbag play ~/workspace/dataset/indoor_forward_5_snapdragon_with_gt.bag
 
 
 ### catkin_stereo : error
@@ -64,6 +62,6 @@ try 'sudo make install'
 
 # How to write 'README.md'
 
-recommand website - [blog](https://ndb796.tistory.com/194)
+recommand website - [blog](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 
 
