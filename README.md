@@ -1,3 +1,37 @@
+# catkin_ws_ov
+### catkin_ws_ov : how to run program
+1. only	roslaunch ov_msckf ros_uzhfpv.launch
+
+### catkin_ws_ov : error
+
+# catkin_stereo
+### catkin_stereo : how to run program
+1.	roslaunch vins_estimator_stereo fpv.launch
+2.	rosbag play ~/workspace/dataset/indoor_forward_5_snapdragon_with_gt.bag
+
+
+### catkin_stereo : error
+RLException: while processing vins_rviz.launch:
+Invalid roslaunch XML syntax: \[Errno 2] No such file or directory: u'vins_rviz.launch'
+The traceback for the exception was written to the log file
+
+-> 런치파일 맨밑 주소 홈부터/.../vins_rviz.launch
+
+
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
 # How to change 'avoidance_sitl_mavros.launch' value
 Websites for resolution - [WebSite](https://github.com/PX4/PX4-Avoidance/issues/485)
 
