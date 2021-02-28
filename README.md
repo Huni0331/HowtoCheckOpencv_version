@@ -3,7 +3,7 @@
     1. roslaunch ov_msckf ros_uzhfpv.launch
 
 ### catkin_ws_ov : error
-not yet
+>not yet
 
 # catkin_stereo
 ### catkin_stereo : how to run program
@@ -12,10 +12,9 @@ not yet
 
 
 ### catkin_stereo : error
-RLException: while processing vins_rviz.launch:
+>RLException: while processing vins_rviz.launch:
 Invalid roslaunch XML syntax: \[Errno 2] No such file or directory: u'vins_rviz.launch'
 The traceback for the exception was written to the log file
-
 -> 런치파일 맨밑 주소 홈부터/.../vins_rviz.launch
 
 
