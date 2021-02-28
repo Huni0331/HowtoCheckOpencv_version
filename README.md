@@ -1,13 +1,16 @@
 # catkin_ws_ov
 ### catkin_ws_ov : how to run program
-1. only	roslaunch ov_msckf ros_uzhfpv.launch
+1. only 
+	roslaunch ov_msckf ros_uzhfpv.launch
 
 ### catkin_ws_ov : error
 
 # catkin_stereo
 ### catkin_stereo : how to run program
-1.	roslaunch vins_estimator_stereo fpv.launch
-2.	rosbag play ~/workspace/dataset/indoor_forward_5_snapdragon_with_gt.bag
+1.	
+	roslaunch vins_estimator_stereo fpv.launch
+2.	
+	rosbag play ~/workspace/dataset/indoor_forward_5_snapdragon_with_gt.bag
 
 
 ### catkin_stereo : error
