@@ -22,20 +22,21 @@ You must run the ```setup.bash``` before starting the program on a new terminal
 # catkin_stereo
 ## How to use VINS-Stereo
 ### catkin_stereo : Getting Started
- ```catkin/src```에 [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)와 [VINS-Stereo](https://github.com/rising-turtle/VINS-Stereo)를 git clone해줍니다.   
- 그 다음에, VINS-Stereo안에 있던 폴더랑 같은 폴더를 VINS-Mono에서 다 지워준 뒤, 알맞은 자리에 옮겨줍니다.   
+ ```catkin/src```에 [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)와 [VINS-Stereo](https://github.com/rising-turtle/VINS-Stereo)를 ```git clone```해줍니다.   
+ 그 다음에, VINS-Stereo와 VINS-Mono에서 서로 겹치는 폴더를 VINS-Mono에서 지워줍니다.   
+ 다 지워준 뒤, 알맞은 자리에 옮겨줍니다.   
  그 다음에, ```catkin_make```하세요.
 ### catkin_stereo : how to run program
     roslaunch vins_estimator_stereo your_launch_file (fpv.launch)
     rosbag play ~/your_datasets_space/somefile.bag
 
 Just you need two Terminals   
-You must run the 'setup.bash' before starting the program on a new terminal
+You must run the ```setup.bash``` before starting the program on a new terminal
 ### catkin_stereo : error
 - RLException: while processing vins_rviz.launch:
 Invalid roslaunch XML syntax: \[Errno 2] No such file or directory: u'vins_rviz.launch'
 The traceback for the exception was written to the log file   
--> 런치파일 맨밑 주소 홈부터 : home/.../.../vins_rviz.launch
+-> 런치파일 맨밑 주소 홈부터 : ```home/.../.../vins_rviz.launch```
 
 
 
